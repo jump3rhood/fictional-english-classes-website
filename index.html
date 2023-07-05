@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>George's English</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a class="nav-logo" href="#" aria-label="George's English">Tuts</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li class="nav-item"><a href="#join" class="nav-link">Join Today</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    </nav>
+  </header>
+  <main>
+    <!-- HERO SECTION  -->
+    <section class="container-fluid" id="hero">
+      <div class="overlay">
+        <h1>Learning English Just Got Easier!</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere vitae et sit itaque a nihil libero nobis?</p>
+        <a class="button cta" href="#">JOIN TODAY</a>
+      </div>
+    </section>
+    <!-- ABOUT SECTION  -->
+    <section id="about">
+      <h1>ABOUT</h1>
+      <div class="heading-bar"></div>
+      <div class="container first">
+          <div class="split">
+            <img loading="lazy" src="./assets/images/about.jpg" alt="Meet the Trainer">
+          </div>
+          <div class="split">
+            <h1>Meet the Trainer</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, unde iusto? Quasi molestiae adipisci eligendi nemo, at voluptatibus nesciunt, labore non atque assumenda natus inventore praesentium repellat facere debitis nisi?
+              Est quidem asperiores itaque, totam quia vel quibusdam accusamus sapiente ipsa enim assumenda, corporis commodi quos iste consectetur rerum odio mollitia, ratione natus rem. Ad optio unde illum dolorum praesentium?
+            </p>
+          </div>
+      </div>
+      <div class="container">
+        <h1>
+          WHO IS IT FOR?
+        </h1>
+        <div class="card-container">
+          <div class="card">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <p><strong>Working professionals</strong> looking to succeed at work</p>
+          </div>
+          <div class="card">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <p><strong>Immigrants</strong> who want to feel comfortable speaking English the way it's really spoken</p>
+          </div>
+          <div class="card">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+            <p><strong>Students</strong> looking to pass an exam and succeed at school</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS  -->
+    <section id="testimonials">
+      <h1>TESTIMONIALS</h1>
+      <div class="heading-bar"></div>
+      <div class="container">
+        
+
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul data-slides>
+            <li class="slide" data-active>
+              <img src="assets/images/prof1.jpg" loading="lazy" alt="…" width="200" height="200" alt="Person 1"/>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h3>Sarah Wells</h3>
+            </li>
+            <li class="slide">
+              <img src="assets/images/prof2.jpg" loading="lazy" alt="…" width="200" height="200" alt="Person 1"/>
+              <p>Est iusto quo veniam reprehenderit, saepe expedita deserunt?</p>
+              <h3>Andy James</h3>
+            </li>
+            <li class="slide">
+              <img src="assets/images/prof3.jpg" loading="lazy" alt="…" width="200" height="200" alt="Person 1"/>
+              <p>Sunt, consequatur eius dicta expedita porro iure veritatis quidem minima at suscipit. Quam id debitis asperiores, repellendus consequuntur labore veritatis rerum hic.</p>
+              <h3>Monica Smith</h3>
+            </li>
+            <li class="slide">
+              <img src="assets/images/prof4.jpg" loading="lazy" alt="…" width="200" height="200" alt="Person 1"/>
+              <p>Nostrum aliquid ut pariatur nisi quas dicta fugiat? Reprehenderit, incidunt.</p>
+              <h3>Patrick Simon</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- JOIN  -->
+    <section id="join">
+      <h1>JOIN TODAY</h1>
+      <div class="heading-bar"></div>
+      <div class="container">
+        <div class="split">
+          <form id="form" action="/">
+            <h1>Contact Information</h1>
+            <div class="container">
+              <div class="split input-control">
+                <label for="firstname">First Name</label>
+                <input id="firstname" name="firstname" type="text">
+                <div class="error"></div>
+              </div>
+              <div class="split input-control">
+                <label for="lastname">Last Name</label>
+                <input id="lastname" name="lastname" type="text">
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="phone">Phone</label>
+                <input id="phone"name="phone" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="native">Native Language</label>
+                <input id="native"name="native" type="text">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+        <div class="split">
+          <img src="assets/images/contact.jpg" loading="lazy" alt="…" width="200" height="200" alt="woman smiling and learning" />
+        </div>
+        
+    </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="footer-info">
+      <div>
+        <h4>Keep Connected</h4>
+        <p><i class="fa-brands fa-facebook"></i>Facebook</p>
+        <p><i class="fa-brands fa-twitter"></i>Twitter</p>
+        <p><i class="fa-brands fa-instagram"></i>Instagram</p>
+      </div>
+      <div>
+        <h4>Contact Information</h4>
+        <p><i class="fa-solid fa-house"></i>Street 12, 123, City</p>
+        <p><i class="fa-solid fa-phone"></i>+91-234-432-4534</p>
+        <p><i class="fa-solid fa-envelope"></i>tuts.info@tuts.com</p>
+      </div>
+    </div>
+    
+    <div class="copy-right">
+      <p>&copy; 2023 Tuts.com. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

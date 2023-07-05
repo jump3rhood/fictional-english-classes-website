@@ -1,0 +1,4 @@
+./minified
+node_modules
+.vscode
+minified
